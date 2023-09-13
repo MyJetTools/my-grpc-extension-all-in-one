@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "my-grpc-extensions",
+    "my-grpc-client-macros",
+    "my-grpc-server-macros",
+]
