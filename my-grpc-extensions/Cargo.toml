@@ -24,3 +24,5 @@ futures = "*"
 async-trait = "*"
 my-grpc-client-macros = {optional = true, path = "../my-grpc-client-macros" }
 my-grpc-server-macros = {optional = true, path = "../my-grpc-server-macros" }
+external-dependencies = {path = "../external-dependencies" }
+futures-core = "*"
