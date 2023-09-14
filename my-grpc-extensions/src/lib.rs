@@ -10,12 +10,8 @@ pub use grpc_client_interceptor::*;
 
 
 #[cfg(feature = "grpc-client")]
-extern crate my_grpc_client_macros;
-#[cfg(feature = "grpc-client")]
-pub use my_grpc_client_macros::*;
+pub extern crate my_grpc_client_macros as client;
 
 
 #[cfg(feature = "grpc-server")]
-extern crate my_grpc_server_macros;
-#[cfg(feature = "grpc-server")]
-pub use my_grpc_server_macros::*;
+pub extern crate my_grpc_server_macros as server;
